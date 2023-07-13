@@ -1,0 +1,81 @@
+/* contact section     */
+.contact{
+    position: relative;
+}
+.contact-items{
+    overflow: hidden;
+}
+.contact-item{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.contact-item.mg{
+    margin: 0 5%;
+}
+.contact-item .icon{
+    color: var(--maincolor);
+    font-size: 50px;
+}
+.contact-item-title{
+    padding: 25px;
+    color: #000;
+    text-transform: capitalize;
+}
+.contact-item-text{
+    color: var(--graycolor);
+}
+.contact-inputs{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    
+}
+.contact-inputs.name-email{
+    position: absolute;
+    
+}
+.name-email input{
+    display: inline-block;
+    min-width: 45%;
+    height: 40px;
+    margin-top: 80px;
+    border: 0;
+    background: #e8e8e8;
+    font-size: 17px;
+}
+.contact-inputs .sub-ms-btn{
+    margin-top: 20px;
+    width: 100%;
+    position: absolute;
+}
+.sub-ms-btn .contact-sub{
+    display: block;
+    border: 0;
+    background: #e8e8e8;
+    font-size: 17px;
+    height: 40px;
+    min-width: 90%;
+    margin-left: 5%;
+}
+.sub-ms-btn .contact-ms{
+    display: block;
+    border: 0;
+    background: rgba(232, 232, 232, 0.608);
+    font-size: 17px;
+    height: 80PX;
+    width: 90%;
+    margin-left: 5%;
+}
+.sub-ms-btn .contact-btn{
+    display: block;
+    min-width: 160px;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 45%;
+    background: var(--maincolor);
+    color: var(--bg-color);
+}

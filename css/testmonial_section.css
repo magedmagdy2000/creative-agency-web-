@@ -1,0 +1,42 @@
+/* testmonial section */  
+.testmonial{
+    position: relative;
+    background-image: url(../images/background/background3.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    margin-top: 400px;
+}
+.testmonial-content{
+    overflow: hidden;
+    padding: 120px 0;
+    margin: auto;
+    width: 100%;
+
+}
+.testmonial-item{
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    color: var(--whitecolor);
+}
+.testmonial-item .testmonial-toplayer{
+    padding: 10px 2px 40px 100px;
+    position: relative;
+}
+.testmonial-item .testmonial-toplayer img{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 50%;
+}
+.testmonial-item .testmonial-toplayer h2{
+    margin: 5PX 0;
+}
+.testmonial-item .testmonial-toplayer span{
+    color: var(--maincolor);
+}
+.testmonial-desc{
+    line-height: 1.5;
+    font-size: 17px;
+}

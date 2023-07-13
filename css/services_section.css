@@ -1,0 +1,55 @@
+/* service section */
+.service{
+    background: var(--bg-color);
+}
+.service-item{
+    width: 50%;
+    float: left;
+}
+.service-item .section-header{
+    text-align: left;
+}
+.service-item .section-header .line{
+    margin: 0 0 40px 0;
+}
+.service-item-desc{
+    padding-right: 20px;
+    color: var(--graycolor);
+    line-height: 1.5;
+    font-size: 20px;
+}
+.service-list{
+    list-style: none;
+}
+.service-list li{
+    color: var(--graycolor);
+}
+.service-list li i{
+    border: 1px solid  var(--maincolor);
+    color:  var(--maincolor);
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    border-radius: 50%;
+}
+.service-item-img img{
+    width: 100%;
+}
+.service-bollets{
+    list-style: none;
+    text-align: center;
+}
+.service-bollets li{
+    width: 10PX;
+    height: 10px;
+    display: inline-block;
+    background-color: var(--graycolor);
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+.service-bollets li.active{
+    background-color:  var(--maincolor);
+}
+.service-bollets li:hover{
+    background-color: var(--maincolor);
+}

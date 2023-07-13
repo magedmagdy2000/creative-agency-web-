@@ -1,0 +1,41 @@
+.home{
+    height: 100vh;
+    background-image: url(../images/background/background1.webp);
+    background-size: cover; /*css3*/
+    background-attachment: fixed;
+    position: relative;
+}
+.home-content{
+    position: absolute;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home .title{
+    color: var(--whitecolor);
+    font-size: 3.5rem;
+}
+.home .home-desc{
+    margin: 10px 0;
+    color: var(--whitecolor);
+    letter-spacing: 2px;
+    line-height: 2;
+}
+.home .btn{
+    min-width: 160px;
+    padding: 20px 0;
+    border-radius: 10px;
+    border: 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.home .btn-start{
+    margin-right: 10px;
+    background-color: var(--whitecolor);
+}
+.home .btn-learn{
+    background-color:  var(--maincolor);
+    color: var(--whitecolor);
+}
